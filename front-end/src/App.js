@@ -1,12 +1,15 @@
-import './App.css';
-
+import "./App.css";
+import Header from "./components/Header";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 function App() {
+  //Pages
 
-  console.log("first")
   return (
-    <div className="App">
-      أهلاcodkslpffkdffdsffsd;sdkofsllll بالعالgم
-    </div>
+    <Router>
+      <Header />
+
+      <Routes></Routes>
+    </Router>
   );
 }
 
